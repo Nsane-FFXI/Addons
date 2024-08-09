@@ -11,3 +11,37 @@ Installation...
 5. Load in game by typing //lua l audible
 
 enjoy.
+
+
+
+
+
+An audible queue system for...
+
+Debuffs landing or wearing on you or enemies.
+Monster SP's, most are commmented out, important ones are active... feel free to uncomment the one's you want.
+Buffs wearing on you or others you placed them on, this include's all spells and job abilities.
+Sortie call outs for bosses, base around the nuking strat.
+
+Some other random call outs, 
+  When an enemy starts casting Dread Spike.
+  Immunobreak or Completely Resist.
+  Out of Ranged for anything.
+  MP is too low for the current spell.
+  Ran out of Tools or Ammo.
+  You've complete an Trial.
+  Luopan was Destroyed.
+  Trying to use something while medicated.
+  Multiple dispel, for basically RDM Neck... If you only dispel on buff it will tell you which buff it was.
+
+Some thing that are in there that have been blocked commented out because of annoyance,
+  Stoneskin... WHM cure solace.
+  Dia... You will hear it land on you but not the mob. Seem to be most peoples pulling or tagging spell.
+  Flash... PLD Tanks.
+
+The only thing that will trigger an audible call-out is with in your party, not alliance, you can make this alliance wide by changing line for from "if g == 1 then" to "if g == 1 or 2 or 3 then"
+You will hearing buffs like Song/Roll/Buffs being removed that you place on others, one person did not like this so there is a blocked comment on line 152, if you would like this comment line 151 and uncomment line 152.
+
+
+
+Installaton is the same as every other windower addon, simply exact and place the audible folder in you windower/addons. Make sure the FFaudio folder is in the Audible folder as well other wise the 440+ Call outs wont work.
