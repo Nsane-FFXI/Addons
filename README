@@ -32,4 +32,8 @@ Some things that are in there that have been blocked commented out because of an
 *** Obviously You can comment out anything you dislike or find annoying ***
 
 The only thing that will trigger an audible call-out is with in your party, not alliance, you can make this alliance wide by changing line 40 from "if g == 1 then" to "if g == 1 or 2 or 3 then"
+
 You will hearing buffs like Song/Roll/Buffs being removed that you place on others, one person did not like this so there is a blocked comment on line 152, if you would like this comment line 151 and uncomment line 152.
+
+
+Enjoy :)
